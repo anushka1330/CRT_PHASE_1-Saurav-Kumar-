@@ -7,10 +7,10 @@ int main(){
     if(age>=18 && age<=99){
         cout<<"ELIGIBLE TO VOTE";
     }
-    else-if(age>100){
+    else if(age>100){
         cout<<"Century Category";
     }
-    else-if(age>=0 && age<=17){
+    else if(age>=0 && age<=17){
         cout<<"Not eligible to vote";
     }else{
         cout<<"Invalid age";
