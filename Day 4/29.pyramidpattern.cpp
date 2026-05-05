@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
-    cout<<"Enter n";
-    cin>>n;
+    int n =5;
+
     for(int i=1;i<=n;i++){
-        for(int j=1;j>i;j++){
+        for(int j=n;j>i;j--){
             cout<<" ";
-        }for(int k=1;k<=j;k++){
-            cout<<"*";
+        }
+        for(int k=1;k<=i;k++){
+            cout<<" *";
         }
         cout<<endl;
     }
