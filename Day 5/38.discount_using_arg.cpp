@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
-double discount(double price){
-    return  price * 0.1;
+void applydisc(double &bill){
+    bill=bill*0.9; 
+    
 }
 int main(){
-    double price;
-    cout<<"Enter price";
-    cin>>price;
-    cout<<"Discounted price: "<<price-discount(price)<<endl;
+    double bill=250.50;
+    cout<<bill<<endl;
+    applydisc(bill);
+    cout<<bill<<endl;
     return 0;
 }

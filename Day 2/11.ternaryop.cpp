@@ -6,4 +6,5 @@ int main(){
     cin>>a>>b;
     int max = (a > b) ? a : b;
     cout << "Largest: " << max;
+    return 0;
 }
