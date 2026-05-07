@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-int main(){
     //create class and object in c++ name 
 
     class Student{
@@ -13,7 +12,9 @@ int main(){
             cout<<"Name: "<<name<<endl;
             cout<<"Roll No: "<<rollno<<endl;
         }
-    };  
+    
+};
+    
     int main(){
         Student s1; // creating an object of class Student
         s1.name="Anushka";
@@ -21,4 +22,3 @@ int main(){
         s1.display(); // calling member function to display details
         return 0;
     }
-}
