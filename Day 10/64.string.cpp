@@ -39,7 +39,7 @@ int main(){
     str1.swap(str2);
     cout<<"After swapping: " <<  endl;
     cout<<"str1: " << str1 << endl;//Jecrc
-    cout<<"str2: " << str2 << endl;//Hello StudentsU
+    cout<<"str2: " << str2 << endl;//Hello Student
 
     // 9. Substring
     string substr = str2.substr(5,6);
