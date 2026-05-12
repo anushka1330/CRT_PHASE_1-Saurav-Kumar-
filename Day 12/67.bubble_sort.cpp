@@ -5,12 +5,16 @@ int BubbleSort(int nums[], int n){
         bool flag=false;  // To check if any swapping occurs
         for(int j=0; j<n-i-1; j++){
             if(nums[j]>nums[j+1]){
+                cout<<"Array is sorted here"<<endl;
                 swap(nums[j], nums[j+1]);
                 flag=true;  // Set flag to true if swapping occurs
             }
         }
-        if(!flag)  // If no swapping occurred, array is sorted
+        if(!flag){
+            cout<<"Array is already sorted."<<endl;
             break;
+        }  // If no swapping occurred, array is sorted
+            
     }
 }
 int main(){
